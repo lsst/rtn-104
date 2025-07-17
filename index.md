@@ -14,7 +14,7 @@ As described in [RTN-086](http://ls.st/rtn-086), data transfers from USDF to oth
 ## Rucio Storage Element Configuration
 Rucio requires that specific storage technology be utilized in order to support the deployment of an RSE. [RTN-032](https://rtn-032.lsst.io/#specification-of-rucio-storage-element-rse) details requirements in more specificity (in the context of multi-site processing operations). Present RSEs have been configured utilizing [EOS](https://eos-web.web.cern.ch/eos-web/) and [dCache](https://www.dcache.org/), while [XRootD](https://xrootd.org/) is also known to be supported.
 
-Once the correct storage technology is available, a storage endpoint my be configured. Examples of existing storage endpoints include:
+Once the correct storage technology is available, a storage endpoint may be configured. Examples of existing storage endpoints include:
 - Canada
   - URL: `https://eos-mgm-0.keel-dev.arbutus.cloud:8443/eos/keel-dev.arbutus.cloud/data/lsst`
   - Storage Technology: EOS v5.3 (XrootD/5.7.2)
@@ -23,6 +23,21 @@ Once the correct storage technology is available, a storage endpoint my be confi
   - URL: `https://se.cis.gov.pl:2880/grid/lsst`
   - Storage Technology: dCache/9.2.21
   - RSE Name: `IDAC_POL-NCB`
+
+Storage endpoints should be named according to the convention IDAC_+ [the in-kind program identifier](https://www.lsst.org/scientists/in-kind-program/programs), e.g.:
+- Australia: IDAC_AUS-AAL
+- Brazil: IDAC_BRA-LIN
+- Canada: IDAC_CAN-CAN
+- Croatia: IDAC_CRO-RBI
+- Denmark: IDAC_DEN-IDA
+- Japan: IDAC_JAP-JPG
+- Mexico: IDAC_MEX-UNA
+- Poland: IDAC_POL-NCB
+- Slovenia: IDAC_SLO-UNG
+- Spain: IDAC_ESP-BCM
+- South Korea: IDAC_KOR-KAS
+- UK: IDAC_UKD-UKD
+
 
 ## Authorization
 As part of the requirements listed in [RDO-121](http://ls.st/rdo-121), each IDAC must have designated technical staff members who have filled out the [Staff Access Form](https://ls.st/staff-access-form) and be added to the LSST VO. Upon signing the Staff Access Form, IDAC personnel should notify Knut Olsen and/or Sierra Villarreal, who will notify the Rubin Ops Director.
