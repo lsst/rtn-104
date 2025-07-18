@@ -47,7 +47,7 @@ Additionally, each IDAC must provide a description of their plans for Authentica
 
 Upon approval, a Rubin staff member will add the IDAC technical staff contact to the [LSST VO](https://github.com/opensciencegrid/osg-vo-config/tree/master).
 
-SLAC VOMS server detils are as follows:
+SLAC VOMS server details are as follows:
 - Server Endpoint: `voms.slac.stanford.edu:15003`
 - Configuration Files: `https://voms.slac.stanford.edu:8443/voms/lsst/configuration/configuration.action`
 
