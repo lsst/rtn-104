@@ -55,7 +55,7 @@ USDF staff will handle setting distances from SLAC and the relevant rules in Ruc
 
 ## Checklist
 To be ready to accept bulk data transfers via Rucio, each IDAC should provide:
-[ ] A list of all technical and programmatic points of contact.  The technical point of contact should include the person (or people) who have filled out the Staff Access Form.
-[ ] A statement of how the IDAC indends to comply with the pre-release data-handling policy described in [RDO-121](http://ls.st/rdo-121).
-[ ] A statement of how the IDAC will implement data-rights controls consistent with [RDO-013](http://ls.st/rdo-013).
-[ ] Verification that a test data distribution to the IDAC-based Rucio Storage Element completed successfully.
+- A list of all technical and programmatic points of contact.  The technical point of contact should include the person (or people) who have filled out the Staff Access Form.
+- A statement of how the IDAC indends to comply with the pre-release data-handling policy described in [RDO-121](http://ls.st/rdo-121).
+- A statement of how the IDAC will implement data-rights controls consistent with [RDO-013](http://ls.st/rdo-013).
+- Verification that a test data distribution to the IDAC-based Rucio Storage Element completed successfully.
