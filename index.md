@@ -16,7 +16,7 @@ Rucio requires that specific storage technology be utilized in order to support 
 
 Once the correct storage technology is available, a storage endpoint may be configured. Examples of existing storage endpoints include:
 - Canada
-  - URL: `https://eos-mgm-0.keel-dev.arbutus.cloud:8443/eos/keel-dev.arbutus.cloud/data/lsst`
+  - URL: `https://eos-mgm.keel-dev.arbutus.cloud:8443/eos/keel-dev.arbutus.cloud/data/lsst`
   - Storage Technology: EOS v5.3 (XrootD/5.7.2)
   - RSE Name: `IDAC_CAN-CAN`
 - Poland
